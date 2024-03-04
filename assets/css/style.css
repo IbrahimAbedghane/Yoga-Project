@@ -13,13 +13,17 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: burlywood;
+    color: black;
     font-family: 'Great Vibes', sans-serif;
 }
 
 /* header */
 header {
     background-color: blueviolet;
+}
+
+h1 {
+    font-family: 'Cinzel', sans-serif;
 }
 
 /* main content */
