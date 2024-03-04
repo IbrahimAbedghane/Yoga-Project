@@ -53,6 +53,17 @@ h1 {
     border-bottom: 2px solid snow;
 }
 
+
+/* drop down toggle feature */
+nav {
+ position: absolute;
+ background-color: #40a340;
+ width: 100%;
+ left: 0;   
+ padding: 0 2rem;
+ box-shadow: 0 1.5px 2px;
+ display: none;
+}
 /* main content */
 main {
     background-color: aquamarine;
