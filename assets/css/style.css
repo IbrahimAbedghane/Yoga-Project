@@ -1,0 +1,22 @@
+/* override of default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+header {
+    background-color: blueviolet;
+}
+
+/* main content */
+main {
+    background-color: aquamarine;
+}
+
+/*footer */
+footer {
+    background-color: beige;
+}
