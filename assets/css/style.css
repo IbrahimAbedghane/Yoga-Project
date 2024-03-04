@@ -39,6 +39,20 @@ h1 {
     color: azure;
 }
 
+#menu {
+    font-size: 115%;
+    letter-spacing: 5px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1.5em;
+}
+
+.active {
+    border-bottom: 2px solid snow;
+}
+
 /* main content */
 main {
     background-color: aquamarine;
