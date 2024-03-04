@@ -19,7 +19,7 @@ body {
 
 /* header */
 header {
-    background-color: #CCFFCC;
+    background-color: #40a340;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -27,8 +27,16 @@ header {
     box-shadow: 0 3px 4px #CCFFCC;
 }
 
+header a {
+    text-decoration: wavy;
+    
+}
+
 h1 {
     font-family: 'Cinzel', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: azure;
 }
 
 /* main content */
