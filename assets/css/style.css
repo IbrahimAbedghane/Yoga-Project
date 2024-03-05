@@ -86,9 +86,36 @@ main {
     background-color: aquamarine;
     /* allows main element to use surplus space */
     flex: 1 0 auto;
+    margin-top: 48px;
 }
 
 /*footer */
 footer {
     background-color: beige;
+}
+
+
+/* Media query for tablets etc larger than 768px*/
+@media screen and (min-width: 768px) {
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1.5rem;
+    }
+ 
+    #menu {
+        display: flex;
+    
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
