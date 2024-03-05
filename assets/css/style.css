@@ -83,10 +83,17 @@ nav {
 }
 /* main content */
 main {
-    background-color: aquamarine;
     /* allows main element to use surplus space */
     flex: 1 0 auto;
     margin-top: 48px;
+}
+
+/* Background-image section*/
+#background-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/yoga\ image.avif") no-repeat center center/cover;
+
 }
 
 /*footer */
