@@ -17,14 +17,21 @@ body {
     font-family: 'Great Vibes', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Cinzel', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: azure;
+}
+
 /* header */
 header {
     background-color: #40a340;
-    padding: 0 1rem;
+    padding: 0 2rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 4px #CCFFCC;
+    box-shadow: 0 2px 3px #CCFFCC;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -35,12 +42,7 @@ header a {
     
 }
 
-h1 {
-    font-family: 'Cinzel', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    color: azure;
-}
+
 
 #menu {
     font-size: 115%;
@@ -93,7 +95,25 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/yoga\ image.avif") no-repeat center center/cover;
+    position: relative;
 
+}
+
+/* this is for the 'Zenify, London Paddington and Hammersmith section
+- look at changing the background color of this to fit the styling better and the font color/size */
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 105%;
+    position: absolute;
+    bottom: 35px;
+    width: 75%;
+    min-height: 195px;
+    padding-top: 38px;
+    padding-left: 15px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: aliceblue;
 }
 
 /*footer */
@@ -145,6 +165,13 @@ main {
 
     main {
         margin-top: 79px;
+    }
+
+    /*this is for the background image on larger screens */
+    #cover-text {
+        width: 350px;
+        /* this 'right' pushes the box with the writing 'zenify padding etc' to the right of the screen - look at potentially changing the position and styling of this */
+        right: 60px;
     }
 }
 
